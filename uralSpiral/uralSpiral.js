@@ -10,4 +10,8 @@ function setup() {
 function draw() {
     background(0);
     // Draw the numbers in the cetre of the canvas
+    textsize(64); 
+    testAlign(CENTER, CENTER);
+    fill(255);
+    text(num, x, y);
 }
